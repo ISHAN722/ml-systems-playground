@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package inference;
+
+service InferenceService {
+  rpc Generate (GenerateRequest) returns (GenerateResponse);
+}
+
+message GenerateRequest {
+  string prompt = 1;
+  int32 max_new_tokens = 2;
+}
+
+message GenerateResponse {
+  string text = 1;
+  float latency_ms = 2;
+}

@@ -1,0 +1,9 @@
+Nexora Robotics was founded in 2031 in Austin, Texas, by former aerospace engineer Maya Chen. The company specializes in modular warehouse robots called "Hexapods" that can reconfigure their leg arrangement depending on terrain.
+
+The flagship product, the Hexapod X1, can carry up to 150 kg and operates for 14 hours on a single charge. It uses a proprietary navigation system called PathWeave, which builds real-time 3D maps using lidar and thermal cameras.
+
+In 2034, Nexora partnered with Solis Logistics to deploy 2,000 Hexapod units across their distribution centers in the Midwest. This reduced average order fulfillment time by 37%.
+
+Nexora's headquarters is a converted aircraft hangar nicknamed "The Nest," featuring a 40-foot test course where new Hexapod models are evaluated before release.
+
+The company's CEO, Maya Chen, has stated that Nexora's long-term goal is to develop Hexapods capable of operating in extreme environments, including offshore wind farms and disaster recovery zones.
