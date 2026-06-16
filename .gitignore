@@ -6,3 +6,5 @@ index/
 __pycache__/
 *.pyc
 wandb/
+*.pdf
+output/
