@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "avg_faithfulness": 1.0,
+    "avg_relevancy": 0.96,
+    "avg_correctness": 0.72
+  },
+  "details": [
+    {
+      "question": "How much weight can the Hexapod X1 carry?",
+      "answer": "Up to 150 kg.",
+      "ground_truth": "The Hexapod X1 can carry up to 150 kg.",
+      "faithfulness": {
+        "score": 1.0,
+        "reason": "The answer is identical to the information provided in the context about the Hexapod X1's weight capacity."
+      },
+      "relevancy": {
+        "score": 1.0,
+        "reason": "The context directly answers the question about the weight-carrying capacity of the Hexapod X1."
+      },
+      "correctness": {
+        "score": 0.5,
+        "reason": "The answer partially matches the ground truth by stating the weight capacity (150 kg), but incorrectly includes additional information about the product's features and Nexora's headquarters."
+      }
+    },
+    {
+      "question": "Who founded Nexora Robotics?",
+      "answer": "Maya Chen.",
+      "ground_truth": "Nexora Robotics was founded by Maya Chen, a former aerospace engineer.",
+      "faithfulness": {
+        "score": 1.0,
+        "reason": "The answer is directly stated in the context as 'by former aerospace engineer Maya Chen'."
+      },
+      "relevancy": {
+        "score": 1.0,
+        "reason": "The context directly answers the question about who founded Nexora Robotics."
+      },
+      "correctness": {
+        "score": 0.8,
+        "reason": "The answer provides the correct founder (Maya Chen) and some additional details about the company's goals, but lacks specific information on when Nexora Robotics was founded."
+      }
+    },
+    {
+      "question": "What is PathWeave?",
+      "answer": "PathWeave is Nexora's proprietary navigation system that builds real-time 3D maps using lidar and thermal cameras.",
+      "ground_truth": "PathWeave is Nexora's proprietary navigation system that builds real-time 3D maps using lidar and thermal cameras.",
+      "faithfulness": {
+        "score": 1.0,
+        "reason": "The answer directly quotes the context, providing an exact match for what is described as Nexora's proprietary navigation system."
+      },
+      "relevancy": {
+        "score": 1.0,
+        "reason": "The context directly mentions PathWeave as a proprietary navigation system used by the Hexapod X1, making it highly relevant to answering the question."
+      },
+      "correctness": {
+        "score": 0.8,
+        "reason": "The answer correctly identifies PathWeave as Nexora's proprietary navigation system and mentions its use of lidar and thermal cameras, but lacks specific details about the Hexapod X1's capabilities and Nexora's headquarters."
+      }
+    },
+    {
+      "question": "What was the result of the Solis Logistics partnership?",
+      "answer": "The average order fulfillment time at Solis Logistics' distribution centers was reduced by 37%.",
+      "ground_truth": "The partnership reduced average order fulfillment time by 37%.",
+      "faithfulness": {
+        "score": 1.0,
+        "reason": "The answer directly quotes the context, stating that the partnership reduced average order fulfillment time by 37%."
+      },
+      "relevancy": {
+        "score": 1.0,
+        "reason": "The context directly answers the question about the result of the Solis Logistics partnership."
+      },
+      "correctness": {
+        "score": 0.5,
+        "reason": "The answer partially matches the ground truth by mentioning the partnership and the reduction in average order fulfillment time, but incorrectly states that Nexora partnered with Solis Logistics instead of Nexora Robotics."
+      }
+    },
+    {
+      "question": "What is the long-term goal of Nexora Robotics?",
+      "answer": "To develop Hexapods capable of operating in extreme environments.",
+      "ground_truth": "Nexora's long-term goal is to develop Hexapods capable of operating in extreme environments, including offshore wind farms and disaster recovery zones.",
+      "faithfulness": {
+        "score": 1.0,
+        "reason": "The answer directly matches the information provided in the context about Nexora Robotics' long-term goal."
+      },
+      "relevancy": {
+        "score": 0.8,
+        "reason": "The context provides specific information about Nexora Robotics' long-term goal, including the company's CEO's statement and its focus on developing Hexapods for extreme environments."
+      },
+      "correctness": {
+        "score": 1.0,
+        "reason": "The answer provides the exact same information as the ground truth, including the specific long-term goals of Nexora Robotics."
+      }
+    }
+  ]
+}

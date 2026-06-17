@@ -1,0 +1,37 @@
+[
+  {
+    "question": "How much weight can the Hexapod X1 carry?",
+    "ground_truth": "The Hexapod X1 can carry up to 150 kg.",
+    "contexts": [
+      "The flagship product, the Hexapod X1, can carry up to 150 kg and operates for 14 hours on a single charge. It uses a proprietary navigation system called PathWeave, which builds real-time 3D maps using lidar and thermal cameras."
+    ]
+  },
+  {
+    "question": "Who founded Nexora Robotics?",
+    "ground_truth": "Nexora Robotics was founded by Maya Chen, a former aerospace engineer.",
+    "contexts": [
+      "Nexora Robotics was founded in 2031 in Austin, Texas, by former aerospace engineer Maya Chen. The company specializes in modular warehouse robots called Hexapods that can reconfigure their leg arrangement depending on terrain."
+    ]
+  },
+  {
+    "question": "What is PathWeave?",
+    "ground_truth": "PathWeave is Nexora's proprietary navigation system that builds real-time 3D maps using lidar and thermal cameras.",
+    "contexts": [
+      "The flagship product, the Hexapod X1, can carry up to 150 kg and operates for 14 hours on a single charge. It uses a proprietary navigation system called PathWeave, which builds real-time 3D maps using lidar and thermal cameras."
+    ]
+  },
+  {
+    "question": "What was the result of the Solis Logistics partnership?",
+    "ground_truth": "The partnership reduced average order fulfillment time by 37%.",
+    "contexts": [
+      "In 2034, Nexora partnered with Solis Logistics to deploy 2,000 Hexapod units across their distribution centers in the Midwest. This reduced average order fulfillment time by 37%."
+    ]
+  },
+  {
+    "question": "What is the long-term goal of Nexora Robotics?",
+    "ground_truth": "Nexora's long-term goal is to develop Hexapods capable of operating in extreme environments, including offshore wind farms and disaster recovery zones.",
+    "contexts": [
+      "The company's CEO, Maya Chen, has stated that Nexora's long-term goal is to develop Hexapods capable of operating in extreme environments, including offshore wind farms and disaster recovery zones."
+    ]
+  }
+]
