@@ -1,0 +1,88 @@
+[
+  {
+    "prompt_name": "ml-explainer",
+    "version_hash": "02a98808",
+    "timestamp": "2026-06-27T12:21:29.732074",
+    "avg_score": 0.662,
+    "results": [
+      {
+        "input": "What is machine learning?",
+        "answer": "Machine learning (ML) is a subset of artificial intelligence (AI) that involves training algorithms ",
+        "keyword_score": 0.5,
+        "length_score": 1.0,
+        "score": 0.65
+      },
+      {
+        "input": "Explain overfitting in one sentence.",
+        "answer": "Overfitting occurs when a model is too complex and learns the noise in the training data, resulting ",
+        "keyword_score": 0.33,
+        "length_score": 1.0,
+        "score": 0.53
+      },
+      {
+        "input": "What is a transformer?",
+        "answer": "A transformer is an electrical device that transfers electrical energy from one circuit to another t",
+        "keyword_score": 0.0,
+        "length_score": 1.0,
+        "score": 0.3
+      },
+      {
+        "input": "What is gradient descent?",
+        "answer": "Gradient Descent (GD) is an optimization algorithm used to minimize the loss function of a machine l",
+        "keyword_score": 0.75,
+        "length_score": 1.0,
+        "score": 0.82
+      },
+      {
+        "input": "What is the difference between precision and recall?",
+        "answer": "Precision and recall are two fundamental concepts in evaluating the performance of machine learning ",
+        "keyword_score": 1.0,
+        "length_score": 1.0,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "prompt_name": "ml-explainer",
+    "version_hash": "20c3ba08",
+    "timestamp": "2026-06-27T12:21:35.336259",
+    "avg_score": 0.627,
+    "results": [
+      {
+        "input": "What is machine learning?",
+        "answer": "Machine learning (ML) is a subset of artificial intelligence (AI) that enables systems to automatica",
+        "keyword_score": 0.25,
+        "length_score": 1.0,
+        "score": 0.47
+      },
+      {
+        "input": "Explain overfitting in one sentence.",
+        "answer": "Overfitting occurs when a model is too complex and learns the noise in the training data, resulting ",
+        "keyword_score": 0.0,
+        "length_score": 1.0,
+        "score": 0.3
+      },
+      {
+        "input": "What is a transformer?",
+        "answer": "A transformer is a type of neural network architecture introduced in 2017 by Vaswani et al. It's pri",
+        "keyword_score": 0.67,
+        "length_score": 1.0,
+        "score": 0.77
+      },
+      {
+        "input": "What is gradient descent?",
+        "answer": "Gradient Descent (GD) is a first-order optimization algorithm used to minimize the loss function of ",
+        "keyword_score": 0.75,
+        "length_score": 1.0,
+        "score": 0.82
+      },
+      {
+        "input": "What is the difference between precision and recall?",
+        "answer": "Precision measures the proportion of true positives among all predicted positive instances (i.e., co",
+        "keyword_score": 0.67,
+        "length_score": 1.0,
+        "score": 0.77
+      }
+    ]
+  }
+]

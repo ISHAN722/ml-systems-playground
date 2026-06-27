@@ -1,0 +1,82 @@
+{
+  "topic": "RAG (Retrieval Augmented Generation)",
+  "generated_at": "2026-06-27T13:27:37.868020",
+  "model": "llama3.2:latest",
+  "qa_pairs": [
+    {
+      "question": "What is RAG and how does it differ from traditional text retrieval?",
+      "answer": "RAG (Retrieval Augmented Generation) is a framework that combines retrieval and generation to improve text understanding. It differs from traditional text retrieval in its ability to generate context-specific summaries.",
+      "difficulty": "medium",
+      "keywords": [
+        "RAG",
+        "retrieval",
+        "generation"
+      ]
+    },
+    {
+      "question": "How does RAG use pre-training to improve model performance?",
+      "answer": "RAG uses pre-training to learn a contextualized representation of the input text, which enables better retrieval and generation tasks.",
+      "difficulty": "hard",
+      "keywords": [
+        "pre-training",
+        "contextualization"
+      ]
+    },
+    {
+      "question": "What is the main advantage of using RAG for text summarization?",
+      "answer": "The main advantage of using RAG for text summarization is its ability to generate summaries that are more context-specific and informative.",
+      "difficulty": "easy",
+      "keywords": [
+        "text summarization",
+        "context-specific"
+      ]
+    },
+    {
+      "question": "Can RAG be used for other NLP tasks beyond text summarization?",
+      "answer": "Yes, RAG can be adapted to other NLP tasks such as question answering and text classification.",
+      "difficulty": "medium",
+      "keywords": [
+        "NLP",
+        "task adaptation"
+      ]
+    },
+    {
+      "question": "How does RAG handle out-of-vocabulary words during inference?",
+      "answer": "RAG uses a combination of contextualization and lookup tables to handle out-of-vocabulary words during inference.",
+      "difficulty": "hard",
+      "keywords": [
+        "out-of-vocabulary",
+        "lookup table"
+      ]
+    }
+  ],
+  "edge_cases": [
+    {
+      "question": "What is the primary difference between RAG and traditional sequence generation methods in NLP?",
+      "common_wrong_answer": "RAG is similar to traditional methods, but with more advanced attention mechanisms.",
+      "correct_answer": "RAG uses retrieval from a large knowledge graph as a pre-processing step to generate text, whereas traditional methods rely solely on sequence generation algorithms.",
+      "why_tricky": "Many candidates assume RAG is just an incremental improvement over existing sequence generation techniques, without considering the fundamental shift in pre-processing and post-processing steps."
+    },
+    {
+      "question": "Can RAG handle multi-step tasks with complex dependencies between inputs and outputs?",
+      "common_wrong_answer": "RAG can only handle simple single-step tasks.",
+      "correct_answer": "RAG's use of a large knowledge graph allows it to capture long-term dependencies and relationships, making it suitable for multi-step tasks with complex dependencies.",
+      "why_tricky": "Candidates often underestimate the ability of RAG to model complex dependencies due to its focus on generating text based on retrieved information."
+    },
+    {
+      "question": "Does RAG suffer from the vanishing gradient problem when training large models?",
+      "common_wrong_answer": "RAG is not affected by the vanishing gradient problem.",
+      "correct_answer": "Although RAG's use of retrieval can help mitigate the vanishing gradient problem to some extent, it does not eliminate it entirely due to its reliance on learned embeddings and attention mechanisms.",
+      "why_tricky": "Candidates may assume RAG's architecture is immune to common neural network issues like the vanishing gradient problem, without considering the trade-offs between different components of the model."
+    }
+  ],
+  "stats": {
+    "total_qa": 5,
+    "total_edge_cases": 3,
+    "difficulty_breakdown": {
+      "easy": 1,
+      "medium": 2,
+      "hard": 2
+    }
+  }
+}

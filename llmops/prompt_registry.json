@@ -1,0 +1,112 @@
+{
+  "prompts": {
+    "ml-explainer": [
+      {
+        "hash": "02a98808",
+        "system_prompt": "You are a helpful assistant. Answer questions clearly.",
+        "description": "Basic prompt",
+        "created_at": "2026-06-27T12:04:54.153594",
+        "version": 1
+      },
+      {
+        "hash": "20c3ba08",
+        "system_prompt": "You are an expert ML educator. When answering questions:\n- Be concise and precise\n- Use technical terms correctly\n- Give concrete examples where helpful\n- Keep answers under 3 sentences",
+        "description": "Improved with constraints",
+        "created_at": "2026-06-27T12:04:54.153918",
+        "version": 2
+      },
+      {
+        "hash": "02a98808",
+        "system_prompt": "You are a helpful assistant. Answer questions clearly.",
+        "description": "Basic prompt",
+        "created_at": "2026-06-27T12:05:07.132922",
+        "version": 3
+      },
+      {
+        "hash": "20c3ba08",
+        "system_prompt": "You are an expert ML educator. When answering questions:\n- Be concise and precise\n- Use technical terms correctly\n- Give concrete examples where helpful\n- Keep answers under 3 sentences",
+        "description": "Improved with constraints",
+        "created_at": "2026-06-27T12:05:07.133491",
+        "version": 4
+      },
+      {
+        "hash": "02a98808",
+        "system_prompt": "You are a helpful assistant. Answer questions clearly.",
+        "description": "Basic prompt",
+        "created_at": "2026-06-27T12:05:50.798657",
+        "version": 5
+      },
+      {
+        "hash": "20c3ba08",
+        "system_prompt": "You are an expert ML educator. When answering questions:\n- Be concise and precise\n- Use technical terms correctly\n- Give concrete examples where helpful\n- Keep answers under 3 sentences",
+        "description": "Improved with constraints",
+        "created_at": "2026-06-27T12:05:50.798964",
+        "version": 6
+      },
+      {
+        "hash": "02a98808",
+        "system_prompt": "You are a helpful assistant. Answer questions clearly.",
+        "description": "Basic prompt",
+        "created_at": "2026-06-27T12:21:18.090184",
+        "version": 7
+      },
+      {
+        "hash": "20c3ba08",
+        "system_prompt": "You are an expert ML educator. When answering questions:\n- Be concise and precise\n- Use technical terms correctly\n- Give concrete examples where helpful\n- Keep answers under 3 sentences",
+        "description": "Improved with constraints",
+        "created_at": "2026-06-27T12:21:18.090483",
+        "version": 8
+      }
+    ]
+  },
+  "history": [
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "02a98808",
+      "timestamp": "2026-06-27T12:04:54.153600"
+    },
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "20c3ba08",
+      "timestamp": "2026-06-27T12:04:54.153921"
+    },
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "02a98808",
+      "timestamp": "2026-06-27T12:05:07.132928"
+    },
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "20c3ba08",
+      "timestamp": "2026-06-27T12:05:07.133494"
+    },
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "02a98808",
+      "timestamp": "2026-06-27T12:05:50.798665"
+    },
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "20c3ba08",
+      "timestamp": "2026-06-27T12:05:50.798967"
+    },
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "02a98808",
+      "timestamp": "2026-06-27T12:21:18.090191"
+    },
+    {
+      "action": "register",
+      "name": "ml-explainer",
+      "hash": "20c3ba08",
+      "timestamp": "2026-06-27T12:21:18.090486"
+    }
+  ]
+}
